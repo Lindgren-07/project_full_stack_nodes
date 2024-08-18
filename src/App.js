@@ -71,7 +71,7 @@ function App() {
 
           <div className="input-block">
             <label htmlFor="title">Titulo da Anotação</label>
-            <input value={title} required onChange={event => setTitles(event.target.value)}></input>
+            <input value={title} required maxlength="50" onChange={event => setTitles(event.target.value)}></input>
           </div>
 
           <div className="input-block">
