@@ -5,6 +5,7 @@ import './global.css';
 import './sidebar.css';
 import './main.css';
 import Notes from './Componentes/Notes';
+import RadioButton from './Componentes/RadioButton';
 
 
 
@@ -80,7 +81,7 @@ function App() {
 
           <button id='btn_submit' type="submit">Salvar</button>
         </form>
-        
+        <RadioButton></RadioButton>
       </aside>
       <main>
 
